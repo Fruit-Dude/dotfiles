@@ -475,7 +475,7 @@ def init_widgets_list():
                        foreground = colors[8],
                        background = colors[1],
                        location='Gauting',
-                       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(myTerm + ' sh -c "curl v2.wttr.in/starnberg;bash" ')},
+                       mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(myTerm + ' sh -c "curl v2.wttr.in/;bash" ')},
                        padding = 5
                        ),
              widget.TextBox(
